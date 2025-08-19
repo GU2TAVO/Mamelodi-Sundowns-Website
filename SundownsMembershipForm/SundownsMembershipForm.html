@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="SundownsMembershipForm.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head> 
+<body>
+    
+    <div class="header-wrapper"> 
+        <header class="header"> 
+         <img class="logo" src="https://sundownsfc.co.za/wp-content/uploads/2020/09/Updated-Sundowns-Logo.png" alt="Mamelodi Sundowns Logo" style="width: 100px; height: auto; margin-right: auto;">
+        </header>
+        <img class="banner-image" src="https://sundownsfc.co.za/wp-content/uploads/2024/07/Header-Image-2.jpg" alt="membership banner image">
+    </div>
+    
+    <div class="introduction"> 
+    <p>We are introducing the latest Sundowns innovation to bring the Yellow Nation closer to the club! Sign up to the Mamelodi Sundowns Membership Club today and enjoy all the benefits.</p>
+</div>
+<div class="picture-grid">
+<figure class="dance-effect"> 
+    <a href="https://sundownsfc.store" target="https://sundownsfc.store/"><img src="https://sundownsfc.co.za/wp-content/uploads/2023/09/ONLINE-STORE-150x150.png" alt="online store"><figcaption>Online Store</figcaption></a>
+</figure>
+<figure class="dance-effect">  
+    <a href="https://sfc.cashbackclub.co.za" target="https://sfc.cashbackclub.co.za/offers"><img src="https://sundownsfc.co.za/wp-content/uploads/2023/09/GROCERY-150x150.png" alt="grocery deals"><figcaption>Cashback on Groceries</figcaption></a>
+</figure>
+<figure class="dance-effect"> 
+    <a href="https://www.southernsun.com/frequentguest/hotel-rewards/partners-join?cpe-url=mamelodi" target="https://sundownsfc.ordev.io/"><img src="https://sundownsfc.co.za/wp-content/uploads/2023/09/DISCOUNTS-150x150.png" alt="Discounted Prices"><figcaption>Discounted Prices</figcaption></a>
+</figure>
+<figure class="dance-effect"> 
+    <a href="https://sundownsfc.co.za/mamelodi-sundowns-2024-25-squad/" target="https://sundownsfc.ordev.io/"><img src="https://sundownsfcadmin.ordev.io//assets/uploads/featured_image/1allende.jpg" alt="Men's Team"><figcaption>Men's Team</figcaption></a>
+</figure>
+<figure class="dance-effect"> 
+    <a href="https://sundownsfc.co.za/mamelodi-sundowns-2024-ladies-squad/" target="https://sundownsfc.co.za"><img src="https://sundownsfcadmin.ordev.io//assets/uploads/featured_image/1sauls.jpg" alt="Ladies Team"><figcaption>Ladies Team</figcaption></a>
+</figure>
+
+</div>
+
+<h1>Mamelodi Sundowns Membership Form</h1>
+    <div class="form-container">
+        <form id="myForm"> 
+            <p>Please complete the form below.</p><br> 
+        <label for="name">1. Enter Your Name</label><br>
+            <input type="text" id="name" placeholder="Name" onkeypress="return onlyLetters(event)">
+        <br>   
+        <label for="surname">2. Enter Your Surname</label><br>
+            <input type="text" id="surname" placeholder="Surname" onkeypress="return onlyLetters(event)">
+        <br>    
+        <label for="age">3. Enter Your Age</label><br>
+            <input type="text" id="age" placeholder="Age" onkeypress="return onlyNumbers(event)">
+        <br> 
+        <label for="branch">4. Enter Your Mamelodi Sundowns Branch</label><br>
+            <input type="text" id="branch" placeholder="Branch" onkeypress="return onlyLetters(event)"> 
+            <button type="submit" class="custom-button" onclick="submitForm()">Submit</button>
+        </form> 
+             <!-- Success Message (Initially Hidden) -->
+             <p id="membershipSuccessMessage" style="display: none; color: green;">Form Submitted!</p>
+
+             <!-- Error Messsage (Initially hidden) -->
+              <P id="errorMessage" style="display: none; color: red;">All fields must be filled out</P>  
+        
+    </div> 
+    <script src="SundownsMembershipForm.js"></script>
+</body>
+<footer class="footer">
+    <h1>Contact Info</h1>
+    <p>132 Chloorkop, cnr. allandale & Dunlop Roads, Chloorkop</p>
+    <p>(011) 393-5007/4595</p>
+    <div class="social-icons"> 
+        <a href="https://www.facebook.com/sundownsfc/?_rdc=1&_rdr#" target="https://web.facebook.com/sundownsfc/"><img src="https://img.icons8.com/?size=96&id=118497&format=png" alt="facebook"></a>
+        <a href="https://x.com/Masandawana" target="https://twitter.com/Masandawana"><img src="https://img.icons8.com/?size=96&id=13963&format=png" alt="twitter"></a>
+        <a href="https://www.instagram.com/sundownsfc/" target="https://www.instagram.com/sundownsfc/"><img src="https://img.icons8.com/?size=96&id=32323&format=png" alt="instagram"></a>
+        <a href="https://www.tiktok.com/@sundownsfc" target="https://www.tiktok.com/@sundownsfc"><img src="https://img.icons8.com/?size=96&id=118640&format=png" alt="tiktok"></a>
+        <a href="https://www.youtube.com/user/MSundownsFC" target="https://www.youtube.com/user/MSundownsFC"><img src="https://img.icons8.com/?size=96&id=19318&format=png" alt="youtube"></a>
+        </div>
+    <h1>Latest News</h1>
+    <div class="latest-news-container">
+        <div class="news-item">
+        <a href="https://sundownsfc.co.za/masandawana-return-to-domestic-football-with-a-3-0-victory-at-home/">Masandawana Return to Domestic Football with a 3-0 Victory at Home</a>
+    </div>
+        <div class="news-item">
+        <a href="https://sundownsfc.co.za/the-brazilians-switch-their-attention-back-to-the-domestic-league/">The Brazilians Switch their Attention Back to the Domestic League</a>
+    </div>
+        <div class="news-item"> 
+        <a href="https://sundownsfc.co.za/sundowns-ladies-maintain-unbeaten-start-to-the-season-with-draw-against-copperbelt/">Sundowns Ladies Maintain Unbeaten Start to the Season with Draw Against Copperbelt</a>
+    </div>
+        <div class="news-item"> 
+        <a href="https://sundownsfc.co.za/diski-team-victorious-at-home-over-sekhukhune-united/">Diski Team Victorious at Home over Sekhukhune United</a>
+    </div>
+        <div class="news-item"> 
+        <a href="https://sundownsfc.co.za/bafana-ba-style-book-the-first-spot-of-the-cafcl-final/">Bafana Ba Style Book the first Spot of the CAFCL Final</a>
+    </div>
+
+    <h1>Stay up to date with Sundowns</h1>
+    <br>
+    <p>Get exclusive access to the latest news and promotions.</p>
+    
+<!-- 
+    <form id="newsletterEmail">
+  <div class="newsletter-row">
+    <input type="email" id="emailInput" placeholder="Your Email Address" required>
+    <button type="submit" class="arrow-button" title="Submit Email"> 
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+  <p id="newsletterSuccessMessage" style="display: none; color: green;">Email Submitted!</p>
+</form>
+-->
+    
+    
+    <p>&copy; 2025 Mamelodi Sundowns Membership Club. All rights reserved.</p>
+    </footer>
+    
+</html>
